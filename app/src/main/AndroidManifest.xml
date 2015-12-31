@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ayadzeino.appesiea">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="ApplicationAZ"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.ayadzeino.appesiea.MainActivity"
+            android:label="ApplicationAZ"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".TestActivity"
+            android:label="Test_Activité"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="Example" >
+        </activity>
+
+        <activity android:name=".SignupActivity"
+            android:label="Example" >
+
+        </activity>
+        <activity android:name=".Menu"
+            android:label="Menu" >
+        </activity>
+        <service
+            android:name="com.example.ayadzeino.appesiea.GetBiersServices"
+            android:exported="false" >
+        </service>
+    </application>
+
+</manifest>

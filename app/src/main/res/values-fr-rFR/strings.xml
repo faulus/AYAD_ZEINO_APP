@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AppZA</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="notif">Notification envoyée</string>
+    <string name="title_activity_seconde">Seconde Activité</string>
+    <string name="message">Bienvenue !</string>
+    <string name="b_up">Bieres telecharge</string>
+    <string name="pagesuiv">Page Suivante</string>
+
+</resources>
